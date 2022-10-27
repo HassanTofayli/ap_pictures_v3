@@ -1,0 +1,58 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    background-color: #ffffff;
+    background-image: url("../images/pictures_orange_stroke.svg");
+    padding: 0 5%;
+}
+.top_bar_words {
+    color: #0A015B;
+}
+
+
+/*#################### MIDDLE ####################*/
+
+.my-card {
+    border: 0;
+    margin: 0;
+}
+.card-body {
+    margin: 0;
+    padding: 0;
+    border: 0;
+
+    /*width: 10vw;*/
+    /*height: 10vw;*/
+}
+
+.full-collection-button {
+    padding-top: 10px;
+    width: 80px;
+}
+.full-collection-button-hvr {
+    width: 80.1px;
+    padding-top: 10px;
+    position: absolute;
+    margin-left: -80px;
+    opacity: 0;
+}
+.full-collection-button-hvr:hover {
+    opacity: 1;
+}
+.btn {
+    position: relative;
+    background-color: #f88832;
+    outline-style: none;
+    border: none;
+    font-size: 12px;
+}
+
+.btn:hover {
+    background-color: #4b94d1;
+}
+
+
+/*############################# FOOTER #############################*/
